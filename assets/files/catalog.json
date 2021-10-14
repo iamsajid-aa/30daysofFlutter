@@ -1,0 +1,84 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "iPhone 12 Pro Max",
+            "desc": "Apple iPhone 12th Generation",
+            "price": 999,
+            "color": "#33505a",
+            "image": "https://images-eu.ssl-images-amazon.com/images/I/41N9-hbLe0L._SY445_SX342_QL70_FMwebp_.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Redmi Note 10S",
+            "desc": "Redmi Note Series 6GB RAM + 64GB",
+            "price": 10999,
+            "color": "#33505a",
+            "image": "https://m.media-amazon.com/images/I/81B0HJigO-L._SL1500_.jpg"
+        },
+        {
+            "id": 3,
+            "name": "iPhone iPhone 11",
+            "desc": "Apple iPhone 11 64GB Black",
+            "price": 999,
+            "color": "#33505a",
+            "image": "https://m.media-amazon.com/images/I/71i2XhHU3pL._SL1500_.jpg"
+        },
+        {
+            "id": 4,
+            "name": "iPhone XR",
+            "desc": "Apple iPhone XR 64GB RED",
+            "price": 20999,
+            "color": "#33505a",
+            "image": "https://images-eu.ssl-images-amazon.com/images/I/41x3E3NeRVL._SX342_SY445_QL70_FMwebp_.jpg"
+        },
+        {
+            "id": 5,
+            "name": "One Plus Nord 5G",
+            "desc": "One Plus Nord Series 5G enabled",
+            "price": 9999,
+            "color": "#33505a",
+            "image": "https://images-eu.ssl-images-amazon.com/images/I/41e1JcORdNS._SX300_SY300_QL70_FMwebp_.jpg"
+        },
+        {
+            "id": 6,
+            "name": "iPhone SE",
+            "desc": "Apple Series S",
+            "price": 5999,
+            "color": "#33505a",
+            "image": "https://images-eu.ssl-images-amazon.com/images/I/31VlsPDOLxL._SX342_SY445_QL70_FMwebp_.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Nokia 5.1",
+            "desc": "Nokia Smartphones 5v",
+            "price": 9799,
+            "color": "#33505a",
+            "image": "https://m.media-amazon.com/images/I/31JoSOFpZ+L.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Oppo Reno 5G",
+            "desc": "Oppo Reno Series 5G",
+            "price": 9099,
+            "color": "#33505a",
+            "image": "https://images-eu.ssl-images-amazon.com/images/I/41iijUxHGCL._SX300_SY300_QL70_FMwebp_.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Samsung S2",
+            "desc": "Samsung S Series",
+            "price": 1999,
+            "color": "#33505a",
+            "image": "https://images-eu.ssl-images-amazon.com/images/I/41CkKbseMGL._SX300_SY300_QL70_FMwebp_.jpg"
+        },
+        {
+            "id": 10,
+            "name": "iPhone 12 Pro",
+            "desc": "Apple iPhone 12th Generation",
+            "price": 8977,
+            "color": "#33505a",
+            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MK083?wid=1000&hei=1000&fmt=jpeg&qlt=95&.v=1617321731000"
+        }
+    ]
+}
