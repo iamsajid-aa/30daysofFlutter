@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_catelogue/models/catalog.dart';
 import 'package:flutter_catelogue/pages/home_detail_page.dart';
-import 'package:flutter_catelogue/widgets/themes.dart';
+import 'package:flutter_catelogue/widgets/home_widgets/add_to_cart.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 class CatalogList extends StatelessWidget {
@@ -46,7 +46,7 @@ class CatalogItem extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            catalog.name.text.lg.color(MyTheme.darkBlueishColor).bold.make(),
+            catalog.name.text.lg.color(context.accentColor).bold.make(),
             catalog.desc.text.make(),
             10.heightBox,
             ButtonBar(
@@ -54,22 +54,17 @@ class CatalogItem extends StatelessWidget {
               buttonPadding: EdgeInsets.zero,
               children: [
                 "\$${catalog.price}".text.bold.xl.make(),
-                ElevatedButton(
-                  style: ButtonStyle(
-                      backgroundColor:
-                          MaterialStateProperty.all(MyTheme.darkBlueishColor),
-                      shape: MaterialStateProperty.all(StadiumBorder())),
-                  onPressed: () {},
-                  child: "Buy".text.make(),
-                )
+                AddToCart(catalog: catalog),
               ],
             ).pOnly(right: 8.0),
           ],
         ))
       ],
-    )).white.rounded.square(150).make().py16();
+    )).color(context.cardColor).rounded.square(150).make().py16();
   }
 }
+
+
 
 class CatalogImage extends StatelessWidget {
   final String image;
@@ -77,6 +72,13 @@ class CatalogImage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Image.network(image).box.rounded.p16.make().p16().w40(context);
+    return Image.network(image)
+        .box
+        .color(context.canvasColor)
+        .rounded
+        .p16
+        .make()
+        .p16()
+        .w40(context);
   }
 }
